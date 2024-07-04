@@ -1,7 +1,7 @@
 version: 1
 source:
     type: GitHub
-    repository: https://github.com/Ameya-2003/Madad
+    repository: https://github.com/Ameya-2003/Madad/tree/main
     branch: main
 runtime: python3.8
 build:
