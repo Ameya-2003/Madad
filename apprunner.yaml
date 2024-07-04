@@ -3,7 +3,7 @@ source:
     type: GitHub
     repository: https://github.com/Ameya-2003/Madad/tree/main
     branch: main
-runtime: python3.11
+runtime: Python 3.11
 build:
     commands:
         - pip install -r requirements.txt
