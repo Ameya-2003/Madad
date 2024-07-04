@@ -1,9 +1,9 @@
 version: 1
 source:
-  type: GITHUB
-  repository: <Madad>
-  branch: main  # Replace with your desired branch
-runtime: PYTHON_3
+    type: GitHub
+    repository: https://github.com/Ameya-2003/Madad
+    branch: main
+runtime: python3.8
 build:
-  commands:
-    - pip install -r requirements.txt
+    commands:
+        - pip install -r requirements.txt
