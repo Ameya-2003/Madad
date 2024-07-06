@@ -1,9 +1,10 @@
-version: 1
-source:
-    type: GitHub
-    repository: https://github.com/Ameya-2003/Madad/tree/main
-    branch: main
-runtime: Python 3.11
+version: 1.0
+runtime: python3
 build:
-    commands:
-        - pip install -r requirements.txt
+  commands:
+    prebuild:
+      - pip install -r requirements.txt
+run:
+  command: python your_script.py
+  network:
+    port: 8080
